@@ -1,3 +1,4 @@
+import { Github } from 'lucide-react'
 import React from 'react'
 
 const Navbar = () => {
@@ -10,7 +11,8 @@ const Navbar = () => {
             </div>
 
             <button className='text-white cursor-pointer h-12 flex gap-2 items-center font-bold hover:text-green-400 bg-white/10 hover:bg-white/20 border border-white/20 hover:border-green-400 rounded-full py-1 px-4'>
-                <img className='h-9 ' src="/public/icons/github.png" alt="GitHub Logo" />
+                {/* <img className='h-9 ' src="/public/icons/github.png" alt="GitHub Logo" /> */}
+                <Github />
                 <span>GitHub</span>
             </button>
         </nav>

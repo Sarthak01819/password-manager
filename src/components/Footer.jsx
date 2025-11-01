@@ -1,3 +1,4 @@
+import { Heart } from 'lucide-react'
 import React from 'react'
 
 const Footer = () => {
@@ -9,7 +10,10 @@ const Footer = () => {
                 <span className='text-green-500'>OP/&gt;</span>
             </div>
             <div className='text-sm flex gap-2 items-center'>
-                <span className='flex items-center'>Created with&nbsp;<img className='h-5' src="/public/icons/heart.png" alt="Heart logo" />&nbsp;by&nbsp;<span className='underline'>Sarthak Singh</span></span>
+                <span className='flex items-center'>Created with&nbsp;
+                    {/* <img className='h-5' src="/public/icons/heart.png" alt="Heart logo" /> */}
+                    <Heart className='text-red-500 fill-red-500 ' />
+                    &nbsp;by&nbsp;<span className='underline'>Sarthak Singh</span></span>
             </div>
         </div>
     )
